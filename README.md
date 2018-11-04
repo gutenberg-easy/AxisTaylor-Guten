@@ -24,7 +24,7 @@ Creates Slideshow/Carousel Component. Its actually a light-weight wrapper for [n
 *Docker-Compose needed*
 
 I'm not the greatest with Docker so you'll have to get run `git clone https://github.com/WordPress/gutenberg-starter-theme.git starter-theme` in the project directory and clone the [gutenberg-starter-theme](https://github.com/WordPress/gutenberg-starter-theme)
-This theme has support for `wide` and `full` content alignment. Next run `docker-compose up -d && npm start` from the project directory and wait 30 seconds. The development Wordpress installation is served at `http://localhost:8000`; Run through the setup activate the `Gutenberg` theme and the `AxisTaylor-Guten` plugin and begin development. Note - I don't see it mentioned to often so I mention it here. `Create-Guten-Block` doesn't always recompile after file changes especially pertaining to scss files. If you run in this issue simply restart the `dev-server` and refresh the page and clear the cache. 
+This theme has support for `wide` and `full` content alignment. Next run `docker-compose up -d && npm start` from the project directory and wait 30 seconds. The development Wordpress installation is served at `http://localhost:8080`; Run through the setup activate the `Gutenberg` theme and the `AxisTaylor-Guten` plugin and begin development. Note - I don't see it mentioned to often so I mention it here. `Create-Guten-Block` doesn't always recompile after file changes especially pertaining to scss files. If you run in this issue simply restart the `dev-server` and refresh the page and clear the cache. 
 
 ### Bootstrapped with [Create Guten Block](https://github.com/ahmadawais/create-guten-block).
 
